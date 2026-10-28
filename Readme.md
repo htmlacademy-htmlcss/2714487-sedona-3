@@ -1,12 +1,13 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/3/user/2714487).
-* Наставник: `Неизвестно`.
+- Студент: [Савинова Светлана](https://up.htmlacademy.ru/htmlcss-individual/3/user/2714487).
+- Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
+- Сайт: [Мой проект Седона](https://svetlanna102.github.io/2714487-sedona-3/)
 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
+_`.editorconfig`, `.gitattriгbutes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ---
 
