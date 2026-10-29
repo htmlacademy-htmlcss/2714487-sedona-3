@@ -49,7 +49,7 @@
 
       </header>
       <main data-test="main" class="main-inner">
-        <section data-test="filter" class="filter-content">
+        <section class="filter-content">
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
@@ -64,7 +64,7 @@
             </ul>
           </header>
           <h2 class="visually-hidden">Фильтры для поиска</h2>
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <form data-test="filter" class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="filter-content-group filter-complex">
               <legend class="filter-content-title">Инфраструктура:</legend>
               <ul class="filter-content-list">
@@ -80,7 +80,6 @@
                     <input class="control-input visually-hidden" type="checkbox" name="parking" checked>
                     <span class="control-mark"></span>
                     <span class="control-label"> Парковка </span>
-
                   </label>
                 </li>
                 <li class="filter-content-item">
@@ -88,7 +87,6 @@
                     <input class="control-input visually-hidden" type="checkbox" name="wi-fi">
                     <span class="control-mark"></span>
                     <span class="control-label"> Wi-Fi </span>
-
                   </label>
                 </li>
               </ul>
@@ -131,7 +129,6 @@
                   <input class="field-price field-price-to" type="number" name="price-to" id="price-to" value="9000"
                     placeholder="9000"></label>
               </div>
-
               <div class="range-scale">
                 <div class="range-bar" style="left: 0; width: 226px;">
                   <button type="button" class="range-toggle toggle-min">
@@ -142,7 +139,6 @@
                   </button>
                 </div>
               </div>
-
             </fieldset>
             <div class="filter-content-button">
               <button class="button-apply" type="submit">Применить</button>
@@ -297,7 +293,7 @@
           </li>
         </ul>
         <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/intensive/htmlcss">
           <span class="visually-hidden">"Логотип HTML academy"</span>
         </a>
       </footer>
